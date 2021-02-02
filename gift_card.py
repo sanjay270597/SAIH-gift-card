@@ -13,7 +13,6 @@ with open(file_path,'r') as f:
 #To get true os level random value
 _random = list(os.urandom(1))[0]
 # print(_random)
-_random = 255
 _random = int(round(_random * (len(names)-1)/255))
 # print(_random,names)
 
